@@ -54,7 +54,7 @@ Robot {
         RotationalMotor {
           name "motor_right"
           maxVelocity 13.1
-          maxTorque 0.05
+          maxTorque 0
         }
       ]
       endPoint DEF WHEEL1 Solid {
@@ -75,6 +75,7 @@ Robot {
         ]
         boundingObject USE G_WHEEL
         physics Physics {
+          mass 1
         }
       }
     }

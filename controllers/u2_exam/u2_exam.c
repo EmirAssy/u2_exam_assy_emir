@@ -37,8 +37,8 @@ int main(int argc, char **argv)
 
      if (pressed_key == WB_KEYBOARD_UP)
      {
-       wb_motor_set_velocity (wheel_right, -52.35);
-       wb_motor_set_velocity (wheel_left, -52.35);
+       wb_motor_set_velocity (wheel_right, -6.66);
+       wb_motor_set_velocity (wheel_left, -6.66);
        printf("UP key pressed\n");
      }
      else if (pressed_key == WB_KEYBOARD_DOWN)
