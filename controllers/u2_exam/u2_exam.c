@@ -43,8 +43,8 @@ int main(int argc, char **argv)
      }
      else if (pressed_key == WB_KEYBOARD_DOWN)
      {
-       wb_motor_set_velocity (wheel_right, 10.47);
-       wb_motor_set_velocity (wheel_left, 10.47);
+       wb_motor_set_velocity (wheel_right, .02);
+       wb_motor_set_velocity (wheel_left, .02);
        printf("DOWN key pressed\n");
 
      }
